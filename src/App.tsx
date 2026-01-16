@@ -3,6 +3,7 @@ import './App.css'
 import Timer from './components/Timer'
 import ToggleMessage from './components/ToggleMessage'
 import UserList from "./components/userList";
+import UserCard from './components/userCard'  
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
      <TodoList />
      <ToggleMessage />  
      <UserList />
+     <UserCard name="Alice" role="Administrator" />
 
     </div>
      
