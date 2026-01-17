@@ -4,6 +4,7 @@ import Timer from './components/Timer'
 import ToggleMessage from './components/ToggleMessage'
 import UserList from "./components/userList";
 import UserCard from './components/userCard'  
+import SimpleForm from "./components/SimpleForm";
 
 function App() {
   
@@ -17,6 +18,7 @@ function App() {
      <ToggleMessage />  
      <UserList />
      <UserCard name="Alice" role="Administrator" />
+     <SimpleForm />
 
     </div>
      
